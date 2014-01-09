@@ -29,5 +29,8 @@
   "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/zeke/euclidean-distance/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.0"
   }
 }
