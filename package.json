@@ -4,7 +4,7 @@
   "description": "Calculate the Euclidean distance been two points in 2D/3D/nD space.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
