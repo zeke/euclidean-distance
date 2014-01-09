@@ -1,4 +1,4 @@
-# Euclidean Distance
+# Euclidean Distance [![Build Status](https://travis-ci.org/zeke/euclidean-distance.png?branch=master)](https://travis-ci.org/zeke/euclidean-distance)
 
 euclidean-distance is a [browserify](https://github.com/substack/node-browserify#browserify)-friendly npm module
 for calculating the [Euclidean distance](http://en.wikipedia.org/wiki/Euclidean_distance#Three_dimensions)
