@@ -2,7 +2,7 @@
 
 euclidean-distance is a [browserify](https://github.com/substack/node-browserify#browserify)-friendly npm module
 for calculating the [Euclidean distance](http://en.wikipedia.org/wiki/Euclidean_distance#Three_dimensions)
-been two vectors in n-dimensional space.
+between two vectors in n-dimensional space.
 
 <img src="http://upload.wikimedia.org/math/a/0/5/a056c1b3e4b1c72be81acf62b9e574ca.png">
 
