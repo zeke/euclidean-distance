@@ -16,19 +16,28 @@ npm install euclidean-distance --save
 ## Usage
 
 ```js
-var d = require('euclidean-distance');
+var distance = require('euclidean-distance')
 
-d([0,0], [1,0]);
+distance([0,0], [1,0])
 // 1
 
-d([0,0], [3,2]);
+distance([0,0], [3,2])
 // 3.605551275463989
 
-d([-7,-4,3], [17, 6, 2.5]);
+distance([-7,-4,3], [17, 6, 2.5])
 // 26.004807247892
 
-d([5,13,17,3,25,21,7,1], [20,26,7,5,28,3,23,10]);
+distance([5,13,17,3,25,21,7,1], [20,26,7,5,28,3,23,10])
 // 34.17601498127012
+```
+
+For [some purposes](https://github.com/zeke/euclidean-distance/issues/3) you may actually be looking for the square of the distance. For that, you can use:
+
+```js
+var distanceSquared = require('euclidean-distance/squared')
+
+distanceSquared([0,0], [2,0])
+// 4
 ```
 
 ## Test

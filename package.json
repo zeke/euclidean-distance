@@ -5,7 +5,7 @@
   "description": "Calculate the Euclidean distance been two points in 2D/3D/nD space.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,6 @@
     "url": "https://github.com/zeke/euclidean-distance/issues"
   },
   "devDependencies": {
-    "mocha": "~1.17.0"
+    "mocha": "^2.3.4"
   }
 }
