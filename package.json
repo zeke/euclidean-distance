@@ -1,7 +1,7 @@
 {
   "name": "euclidean-distance",
-  "version": "0.1.1",
-  "license": "MIT",
+  "version": "0.2.0",
+  "license": "WTFPL",
   "description": "Calculate the Euclidean distance been two points in 2D/3D/nD space.",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,6 @@
     "browser"
   ],
   "author": "zeke",
-  "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/zeke/euclidean-distance/issues"
   },
