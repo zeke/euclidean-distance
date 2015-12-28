@@ -1,6 +1,6 @@
 {
   "name": "euclidean-distance",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "description": "Calculate the Euclidean distance been two points in 2D/3D/nD space.",
   "main": "index.js",
