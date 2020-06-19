@@ -1,6 +1,5 @@
 var assert = require('assert')
 var distance = require('..')
-var squared = require('../squared')
 
 describe('euclidean-distance', function () {
   describe('2d', function () {
@@ -34,20 +33,6 @@ describe('euclidean-distance', function () {
       assert.equal(26, Math.floor(distance([-7, -4, 3], [17, 6, 2.5])))
     })
 
-  })
-
-  describe('square', function () {
-    it('returns the square of the distance', function () {
-      var a = [0, 0, 0]
-      var b = [1, 0, 0]
-      var c = [2, 0, 0]
-
-      assert.equal(1, distance(a,b))
-      assert.equal(1, squared(a,b))
-
-      assert.equal(2, distance(a,c))
-      assert.equal(4, squared(a,c))
-    })
   })
 
 })

@@ -1,7 +1,6 @@
 // http://en.wikipedia.org/wiki/Euclidean_distance#Three_dimensions
 
-var distanceSquared = require('./squared')
+const euclideanDistance = (a, b) =>
+  Math.sqrt(a.reduce((acc, _, n) => acc + ((a[n] - b[n]) ** 2), 0))
 
-module.exports = function (a, b) {
-  return Math.sqrt(distanceSquared(a,b))
-}
+module.exports = euclideanDistance
